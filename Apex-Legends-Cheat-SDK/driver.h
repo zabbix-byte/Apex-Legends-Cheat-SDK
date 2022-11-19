@@ -6,6 +6,9 @@
 #include <TlHelp32.h>
 #include <mutex>
 #include <iostream>
+#include "imports.h"
+
+// basic driver to handle memory
 
 typedef struct _COPY_MEMORY {
 	void* buffer;
@@ -60,7 +63,7 @@ namespace Driver
 
 		COPY_MEMORY m{};
 		m.read = true;
-		m.pid = Globals::processID;
+		m.pid = Globals::process_id;
 		m.address = readAddress;
 		m.buffer = &buffer;
 		m.size = sizeof(type);
@@ -74,7 +77,7 @@ namespace Driver
 	{
 		COPY_MEMORY m{};
 		m.write = true;
-		m.pid = Globals::processID;
+		m.pid = Globals::process_id;
 		m.address = writeAddress;
 		m.buffer = &value;
 		m.size = sizeof(value);
