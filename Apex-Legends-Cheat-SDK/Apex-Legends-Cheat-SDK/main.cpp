@@ -31,13 +31,13 @@ NTSTATUS hook_handler(PVOID called_param)
 }
 
 void real_entry() {
-	DbgPrintEx(0, 0, "ApexDriver: Loaded.\n");
+	DbgPrintEx(0, 0, "DriverForApex: Loaded.\n");
 
 	if (memory::call_kernel_function(&hook_handler)) {
-		DbgPrintEx(0, 0, "ApexDriver: function hooked - NtSetCompositionSurfaceIndependentFlipInfo");
+		DbgPrintEx(0, 0, "DriverForApex: function hooked - NtSetCompositionSurfaceIndependentFlipInfo");
 	}
 	else {
-		DbgPrintEx(0, 0, "ApexDriver: failed to hook function.\n");
+		DbgPrintEx(0, 0, "DriverForApex: failed to hook function.\n");
 	}
 }
 

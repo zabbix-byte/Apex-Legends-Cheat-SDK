@@ -1,0 +1,23 @@
+﻿  Building 'DriverApex' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\DriverApex.inf
+  Stamping [Version] section with DriverVer=11/20/2022,23.49.48.906
+  main.cpp
+  Apex-Legends-Cheat-SDK.vcxproj -> C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\x64\Release\DriverApex.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\x64\Release\DriverApex.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\x64\Release\DriverApex\driverapex.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\x64\Release\DriverApex\driverapex.cat
+  
