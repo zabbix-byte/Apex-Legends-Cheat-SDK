@@ -32,6 +32,8 @@
 *.app
 
 .vs
+*.pdb
 
-Apex-Legends-Cheat-SDK/x64/
-Apex-Legends-Cheat-SDK/Apex-Legends-Cheat-SDK/x64/
+Apex-Legends-Cheat-SDK/x64
+Apex-Legends-Cheat-SDK/Debug-App/x64
+Apex-Legends-Cheat-SDK/Apex-Legends-Cheat-SDK/x64

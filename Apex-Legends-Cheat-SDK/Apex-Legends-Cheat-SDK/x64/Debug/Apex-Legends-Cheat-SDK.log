@@ -1,8 +1,0 @@
-﻿  Building 'Apex-Legends-Cheat-SDK' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
-  Stamping x64\Debug\Apex-Legends-Cheat-SDK.inf
-  Stamping [Version] section with DriverVer=11/20/2022,16.53.55.254
-  main.cpp
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Driver\Apex-Legends-Cheat-SDK\Memory.h(52,18): error C7664: "<=": comparación ordenada del puntero y el entero cero ("PVOID" y "int")
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Driver\Apex-Legends-Cheat-SDK\Memory.h(27,55): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Driver\Apex-Legends-Cheat-SDK\Memory.h(82,60): warning C4267: 'argumento': conversión de 'size_t' a 'ULONG'; posible pérdida de datos
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Driver\Apex-Legends-Cheat-SDK\Hook.h(54,23): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.

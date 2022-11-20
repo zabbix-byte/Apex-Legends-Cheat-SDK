@@ -1,8 +1,0 @@
-﻿  Building 'Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
-  Stamping x64\Release\Apex-Legends-Cheat-SDK.inf
-  Stamping [Version] section with DriverVer=11/20/2022,17.22.8.557
-  main.cpp
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\memory.h(12,56): error C2220: la siguiente advertencia se trata como un error
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\memory.h(12,56): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\memory.h(49,17): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
-C:\Users\admin\Desktop\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\Apex-Legends-Cheat-SDK\memory.h(93,61): warning C4267: 'argumento': conversión de 'size_t' a 'ULONG'; posible pérdida de datos
