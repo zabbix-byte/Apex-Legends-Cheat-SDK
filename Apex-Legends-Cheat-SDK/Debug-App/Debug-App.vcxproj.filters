@@ -15,11 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Debug-App.cpp">
       <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="driver.h">
-      <Filter>Archivos de encabezado</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

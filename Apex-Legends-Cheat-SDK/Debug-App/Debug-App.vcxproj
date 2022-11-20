@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c1c24c6-1b6d-4ed6-9e01-c6a47870a1ca}</ProjectGuid>
-    <RootNamespace>ApexLegendsCheatSDK</RootNamespace>
+    <ProjectGuid>{e489259f-97cd-4919-80b8-30429647ae0c}</ProjectGuid>
+    <RootNamespace>DebugApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,8 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="driver.h" />
+    <ClCompile Include="Debug-App.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
