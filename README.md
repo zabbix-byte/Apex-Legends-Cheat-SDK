@@ -1,3 +1,5 @@
+This app in this moment dont work, is in process of build.
+
 # Apex-Legends-Cheat-SDK
 This SDK provide Apex Legends Cheat SDK for Python
 
